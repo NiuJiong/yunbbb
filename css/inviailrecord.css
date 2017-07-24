@@ -1,0 +1,312 @@
+body{
+	padding: 1.5rem;
+	height: 950px;
+}
+.zezaoceng{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-30px;
+	top: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+}
+.zezaoceng.active{
+	display: block;
+}
+  header{
+  	padding-left:0.5rem;
+  		
+  }
+ header p:nth-child(1){
+	padding: 0.5rem 0 1rem 1.7rem;
+	background: url(../images/yanzhengmatongzhi.png) no-repeat 0 40%;
+	background-size:1.5rem auto;
+	color: #878787;
+	padding-left: 2rem;
+	border-bottom: 1px solid #EDEDED;
+}
+ header p:nth-child(1) span{
+	color: #428DAC;
+	margin:0 0.5rem;
+	color: #6D6D6D;
+	vertical-align: middle;
+}
+ header p:nth-child(1) span:nth-child(2){
+	color: #237BA1;CFCFCF
+}
+ header p:nth-child(1) span:nth-child(2n-1){
+	color: #CFCFCF;
+}
+ header p:nth-child(1) span:last-child{
+ 	color: black;
+ }
+@media screen and (max-width:1080px ) {
+	{
+		min-width:70%;
+	}
+}
+@media screen and (max-width:970px ) {
+	{
+		width:55%;
+	}
+}
+@media screen and (max-width:768px ) {
+	{
+		width:95%;
+	}
+}
+ header p:nth-child(2){
+	font-size: 1.2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+ header p:nth-child(2) span:nth-child(2){
+	margin-left:2rem;
+	padding: 1rem 0;
+	padding-left: 2rem;
+	color: #3686A8;
+	background: url(../images/dizhi.png) no-repeat 0 center;
+	font-size: 1rem;
+}
+ header p:nth-child(2) input{
+	float: right;
+	margin-right:10%;
+	border: 1px solid #EFEFEF;
+	padding:0.5rem 1rem;
+	background-color:#F9F9F9;
+
+	padding-left: 3rem;
+	background: url(../images/riqi.png) no-repeat 0.5rem center;
+	color: #2A7EA2;
+	font-weight: 600;
+}
+@media screen and (max-width:768px ) {
+	 p:nth-child(2) input{
+		float: none;
+		display: block;
+		margin:1rem 0;
+	}
+}
+ header p:nth-child(3){
+	padding: 1.5rem 0;
+border-bottom: 1px solid #EDEDED;
+} 
+ header p:nth-child(3) span{
+	padding: 0.5rem 1rem;
+	margin-right: 0.5rem;
+} 
+ header p:nth-child(3) span:nth-child(1){
+	background: url(../images/mubanguanli.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(2){
+	background: url(../images/zhanghuanquan.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(3){
+	background: url(../images/bianliangfasong.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(4){
+	padding-left:2rem;
+	margin-left: 3rem;
+	background: url(../images/renzheng.png) no-repeat 0 center;
+	font-size:0.9rem;
+	color: #FED724;
+}
+ header{
+	margin-bottom: 2rem;
+}
+
+.message_content{
+	margin-top: 3rem;
+}
+
+
+ .message_content ul:nth-child(1){
+	
+}
+ .message_content ul:nth-child(1) li{
+	border: 1px solid black;
+	float: left;
+	margin-right: 2rem;
+	padding: 1rem 0;
+	width: 8rem;
+	text-align: center;
+	border: 2px solid #4DB79F;
+
+	cursor: pointer;
+	font-size: 0.9rem;
+}
+ .message_content ul:nth-child(1) li.active{
+	border: none;
+	background: #247BA0;
+	color: white;
+}
+ .message_content ul:nth-child(2){
+	border: 1px solid #E6E6E6;
+
+	margin-top: 1.5rem;
+}
+ .message_content ul:nth-child(2) p:nth-child(1){
+	border-bottom: 1px solid #E6E6E6;
+	padding: 0.5rem 0;
+	background: url(../images/sandian.png) no-repeat 98% center;
+	background-size:1.8% auto;
+}
+ .message_content ul:nth-child(2) p span:nth-child(1){
+	font-size: 0.9rem;
+	margin:0 1rem;
+}
+ .message_content ul:nth-child(2) p input{
+	background: white;
+	border: 1px solid #EBEBEB;
+	width: 8rem;
+	padding: 0.3rem 0;
+
+}
+ .message_content ul:nth-child(2) p span:nth-child(3){
+	color: #EAEAEA;
+}
+ .message_content ul:nth-child(2) p input:nth-child(5){
+	margin-left: 1.5rem;
+	font-size: 12px;	
+	padding: 0.35rem 1rem;
+	width: 12rem;
+	background: url(../images/ssssss.png) no-repeat 98% center;
+	background-size:8% auto;
+	background-color:white;
+}
+ .message_content ul:nth-child(2) p input:nth-child(5)::-moz-placeholder{
+	color: #D2D2D2;
+}
+ .message_content ul:nth-child(2) p input:nth-child(5)::-ms-input-placeholder{
+	color: #D2D2D2;
+}
+ .message_content ul:nth-child(2) p input:nth-child(5)::-webkit-input-placeholder{
+	color: #D2D2D2;
+}
+ .message_content ul:nth-child(2) .tab{
+	background: white;
+}
+ .message_content ul:nth-child(2) .tab .thead{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #E6E6E6;
+}
+ .message_content ul:nth-child(2) .tab .thead span{
+	display: inline-block;
+	width: 16.5%;
+	text-align: center;
+	padding: 0.3rem 0;
+	font-size: 0.9rem;
+	color: #7B7B7B;
+}
+ .message_content ul:nth-child(2) .tab ul{
+	margin: 0;
+	padding: 0;
+	border: none;
+	
+	
+	/*表格高度	
+	表格高度	
+	表格高度*/
+	height: 18rem;
+/*	滚动条*/
+	overflow-y: hidden;
+}
+ .message_content ul:nth-child(2) .tab ul::-webkit-scrollbar{
+	
+	width: 0.3rem;
+	
+}
+ .message_content ul:nth-child(2) .tab ul::-webkit-scrollbar-thumb{
+	background: #247BA0;
+
+}
+ .message_content ul:nth-child(2) .tab ul::-webkit-scrollbar-track-piece{
+	background: #E1E1E1;
+
+}
+ .message_content ul:nth-child(2) .tab ul::-webkit-scrollbar-button{
+	background: none;
+	height: 0.4rem;
+	opacity: 0;
+	
+}
+ .message_content ul:nth-child(2) .tab ul li{
+	border-bottom: 1px solid #E6E6E6;
+}
+ .message_content ul:nth-child(2) .tab ul li:nth-child(2n){
+	background: #FBFBFB;
+}
+ .message_content ul:nth-child(2) .tab ul li:last-child{
+	border: none;
+}
+ .message_content ul:nth-child(2) .tab ul li span{
+	display: inline-block;
+	width: 16.5%;
+	text-align: center;
+	padding: 0.3rem 0;
+	font-size: 0.9rem;
+	color: #7B7B7B;
+	padding: 1.2rem 0;
+}
+
+
+
+.message_content .pagess{
+	margin-top:1rem;
+}
+.message_content .pagess P:nth-child(1){
+	float: left;
+	color: #676668;
+	padding-left: 1rem;
+}
+.message_content .pagess P:nth-child(1) span:nth-child(1){
+	display: inline-block;
+	
+	
+}
+.message_content .pagess P:nth-child(1) span:nth-child(1) input{
+	margin: 0;
+	padding: 0;
+	margin: 0 0.5rem;
+	padding:0.6rem;
+	vertical-align: middle;
+	width: 3rem;
+}
+.message_content .pagess P:nth-child(2){
+	float: right;
+	
+}
+.message_content .pagess P:nth-child(2) span{
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #CCD2DA;
+	margin:0.5rem ;
+	padding: 0.5rem;
+	color: #ADABAB;
+	vertical-align: middle;
+}
+.message_content .pagess P:nth-child(2) span:nth-child(3){
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+}
+.message_content .pagess P:nth-child(2) span:nth-child(3) input{
+	margin: 0;
+	padding: 0;
+	margin:0.5rem ;
+	padding:0.6rem;
+	vertical-align: middle;
+	width: 4rem;
+}
+.message_content .pagess P:nth-child(2) span.active{
+	background: #4C89F5;
+	color: white;
+	border: none;
+	vertical-align: middle;
+}

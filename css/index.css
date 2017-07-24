@@ -1,0 +1,394 @@
+.zezaoceng{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-30px;
+	top: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+}
+.zezaoceng.active{
+	display: block;
+}
+body{
+	padding: 1.5rem;
+}
+  header{
+  	padding-left:0.5rem;
+  	
+  }
+ header p:nth-child(1){
+	padding: 0.5rem 0 1rem 1.7rem;
+	background: url(../images/yanzhengmatongzhi.png) no-repeat 0 40%;
+	background-size:1.5rem auto;
+	color: #878787;
+	padding-left: 2rem;
+	border-bottom: 1px solid #EDEDED;
+}
+ header p:nth-child(1) span{
+	color: #428DAC;
+	margin:0 0.5rem;
+	color: #6D6D6D;
+	vertical-align: middle;
+}
+ header p:nth-child(1) span:nth-child(2){
+	color: #237BA1;CFCFCF
+}
+ header p:nth-child(1) span:nth-child(2n-1){
+	color: #CFCFCF;
+}
+
+@media screen and (max-width:1080px ) {
+	{
+		min-width:70%;
+	}
+}
+@media screen and (max-width:970px ) {
+	{
+		width:55%;
+	}
+}
+@media screen and (max-width:768px ) {
+	{
+		width:95%;
+	}
+}
+ header p:nth-child(2){
+	font-size: 1.2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+ header p:nth-child(2) span:nth-child(2){
+	margin-left:2rem;
+	padding: 1rem 0;
+	padding-left: 2rem;
+	color: #3686A8;
+	background: url(../images/dizhi.png) no-repeat 0 center;
+	font-size: 1rem;
+}
+ header p:nth-child(2) input{
+	float: right;
+	margin-right:10%;
+	border: 1px solid #EFEFEF;
+	padding:0.5rem 1rem;
+	background-color:#F9F9F9;
+
+	padding-left: 3rem;
+	background: url(../images/riqi.png) no-repeat 0.5rem center;
+	color: #2A7EA2;
+	font-weight: 600;
+}
+@media screen and (max-width:768px ) {
+	 p:nth-child(2) input{
+		float: none;
+		display: block;
+		margin:1rem 0;
+	}
+}
+ header p:nth-child(3){
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #EDEDED;
+} 
+ header p:nth-child(3) span{
+	padding: 0.5rem 1rem;
+	margin-right: 0.5rem;
+} 
+ header p:nth-child(3) span:nth-child(1){
+	background: url(../images/mubanguanli.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(2){
+	background: url(../images/zhanghuanquan.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(3){
+	background: url(../images/bianliangfasong.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(4){
+	padding-left:2rem;
+	margin-left: 3rem;
+	background: url(../images/renzheng.png) no-repeat 0 center;
+	font-size:0.9rem;
+	color: #FED724;
+}
+ header{
+	margin-bottom: 2rem;
+}
+
+.message_content{
+	margin-top: 3rem;
+}
+
+.information{
+	margin-top: 3rem;
+}
+.information li{
+	float: left;
+	width: 23%;
+	
+	margin-left: 2%;
+	
+}
+/*a{
+	outline: none;
+}
+a:visited{
+	border: none;
+}*/
+.information li:nth-child(1){
+
+	margin-left: 0;
+}
+.information li a{
+	display: block;
+	padding: 2rem 0;
+	font-size: 1.4rem;
+	letter-spacing: 0.1rem;
+	color: white;
+
+	padding-left:2.5rem;
+}
+.information li:nth-child(1) a{
+	background: url(../images/xinxifankui.png) no-repeat 90% center;
+	background-size:13%;
+	background-color:#70C1B3;
+}
+.information li:nth-child(2) a{
+	background: url(../images/chanpin.png) no-repeat 90% center;
+	background-size:11%;
+	background-color:#B2DBBF;
+}
+.information li:nth-child(3) a{
+	background: url(../images/mingxi.png) no-repeat 90% center;
+	background-size:11%;
+	background-color:#F3FFBD;
+	color: #555C35;
+}
+.information li:nth-child(4) a{
+	background: url(../images/shuben.png) no-repeat 90% center;
+	background-size:13%;
+	background-color:#EB547C;
+}
+.content{
+	width: 100%;
+	margin-top: 3rem;
+}
+.content .integral{
+	float: left;
+	width: 20%;
+} 
+.content .integral .balance{
+	border: 1px solid #EDEDED;
+
+	box-shadow: 1px 1px 0 0 #EDEDED,
+				-1px -1px 0 0 #EDEDED
+	;
+}
+.content .integral .balance p:nth-child(1){
+	padding: 1rem;
+	font-size: 1rem;
+	border-bottom: 1px solid #EDEDED;
+	color: #464646;
+}
+.content .integral .balance p:nth-child(2){
+	background: url(../images/zhanghuyue.png) no-repeat center 30%;
+	background-size:35% auto;
+	background-color: white;
+	text-align: center;
+	color: #747474;
+	font-size: 0.9rem;
+	padding: 10rem 0 2rem 0;
+}
+.content .integral .balance p:nth-child(2) span{
+	color: #3082A5;
+}
+.content .integral .go{
+	padding: 1rem;
+	border: 1px solid #EDEDED;
+
+	box-shadow: 1px 1px 0 0 #EDEDED,
+				-1px -1px 0 0 #EDEDED
+	;
+	margin-top:2rem;
+	background-color:white;
+}
+.content .integral .go a{
+	display: block;
+	border: 1px solid red;
+	padding: 1.3rem 0;
+	padding-left: 2.5rem;
+	font-size:0.9rem;
+	letter-spacing: 0.05rem;
+	color: black;
+	background: url(../images/landian.png) no-repeat 8% center;
+	background-size:4% auto;
+	border: 1px solid #F1F1F1;
+
+	outline: none;
+
+}
+.content .integral .go a:nth-child(1){
+	background-color:;
+}
+.content .integral .go a:nth-child(2){
+	margin-top: 1rem;
+	background-color:;
+}
+.content .integral .go a.active{
+	background: url(../images/baidian.png) no-repeat 8% center;
+	background-size:4% auto;
+	background-color:#EB547C;
+	color: white;
+	border: none;
+}
+
+.content .products{
+	float: right;
+	border: 1px solid #EDEDED;
+	box-shadow: 1px 1px 0 0 #EDEDED,
+				-1px -1px 0 0 #EDEDED
+	;
+	
+
+	width: 76%;
+	background: white;
+	padding-bottom: 3rem;
+}
+.content .products .may{
+	background: #F9F9F9;
+	border-bottom: 1px solid #F4F4F4;
+	padding-right: 3rem;
+	background: url(../images/sandian.png) no-repeat 98% center;
+	
+	background-size:2.5% auto;
+}
+.content .products .may p:nth-child(1){
+	background: none;
+	padding: 1rem;
+	float: left;
+	
+}
+.content .products .may p:nth-child(2){
+	float: right;
+	
+	width: 50%;
+}
+.content .products .may p:nth-child(2) span:nth-child(1){
+	margin-top: -15px;
+}
+.content .products .may p:nth-child(2) span:nth-child(1) input{
+	padding: 0.4rem;
+	border: 1px solid #EFEFEF;
+
+	width: 45%;
+	background: url(../images/huiserar.png) no-repeat 98% center;
+	background-size:8% auto;
+	padding-right: 2rem;
+	font-size: 0.8rem;
+}
+.content .products .may p:nth-child(2) span:nth-child(2) select{
+	border: 1px solid #EFEFEF;
+	width: 40%;
+	margin-top: 0.9rem;
+		padding: 0.3rem;
+
+		font-size: 0.7rem;
+		outline: none;
+}
+.content .products .verification,.content .products .marketing{
+	display: inline-block;
+	width: 26%;
+	margin: 2rem 0 0 2rem;
+	vertical-align: top;
+	text-align: center;
+	padding-top:5rem;
+	cursor: pointer;
+	border: 1px solid #EDEDED;
+	box-shadow: 1px 1px 0 0 #EDEDED,
+				-1px -1px 0 0 #EDEDED
+	;
+}
+.content .products .verification{
+	background: url(../images/lanse.png) no-repeat center 1rem;
+	background-size:3rem auto;
+	text-align: center;
+}
+.content .products .verification p:nth-child(1){
+	padding: 1rem;
+	color: #3B3B3B;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.content .products .verification p:nth-child(2){
+	padding: 1rem;
+	color: #3B3B3B;
+	height: 4rem;
+	font-size: 0.9rem;
+	letter-spacing: 0.06rem;
+	line-height: 1.5rem;
+	text-align: center;
+}
+.content .products .verification p:nth-child(3){
+	padding: 1rem;
+	font-size: 0.8rem;
+	color: #73C2B5;
+	text-align: center;
+}
+.content .products .verification p:nth-child(3) span{
+	text-align: center;
+	font-size: 0.8rem;
+}
+.content .products .verification a{
+	display: inline-block;
+	font-size: 0.8rem;
+	text-align: center;
+	color: white;
+	padding: 0.3rem 1.5rem;
+	background: #9EABC3;
+	margin-bottom: 2rem;
+}
+.content .products .verification a span{
+	margin-left: 0.3rem;
+	text-align: center;
+}
+
+.content .products .marketing{
+	background: url(../images/yignxiaoduanxin.png) no-repeat center 1rem;
+	background-size:3.2rem auto;
+	text-align: center;
+}
+.content .products .marketing a{
+	margin-left: 0.5rem;
+}
+.content .products .marketing a span{
+	margin-left: 0.5rem;
+	text-align: center;
+}
+.content .products .verification.active{
+	
+	text-align: center;
+}
+/*.content .products .verification a.active{
+	color: dodgerblue;
+}*/
+.content .products .verification:hover{
+	border: 1px solid #6166c5;
+	box-shadow: 1px 1px 0 0 #6166c5,
+				-1px -1px 0 0 #6166c5;
+}
+.content .products .verification:hover p:nth-child(1){
+	color: #6166c5;
+}
+.content .products .verification:hover p:nth-child(2){
+	color: #6166c5;
+}
+.content .products .verification:hover p:nth-child(3){
+	color: black;
+}
+.content .products .verification:hover a{
+	background: #6166c5;
+}
+.content .products .verification:hover a span{
+	color: #6166c5;
+}

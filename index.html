@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/navandslide.css" />
+	</head>
+
+	<body>
+
+		<!--顶部导航-->
+			<nav class="clearlr" id="nav">
+				<div class="left">
+					<span><img src="images/log.png"/></span>
+					<span><input type="text" placeholder="Search..."/></span>
+					<span>联系客服</span>
+					<!--<span>4MS</span>-->
+				</div>
+				<div class="right">
+					<span></span>
+					<span><a href="###"></a></span>
+					<span><a href="###"></a></span>
+					<span>
+						Benjamin Combs
+					</span>
+					<span class="tuichu">
+						<div>
+							<span><a href="###">修改头像</a></span>
+							<span><a href="###">修改密码</a></span>
+							<span><a href="###">退出系统</a></span>
+						</div>
+					</span>
+				</div>
+			</nav>
+		
+		
+
+		<!--左侧侧边栏-->
+		<div class="main clearlr">
+			<div class="left">
+				<div class="account">
+					<p>Benjamin Combs</p>
+					<p>在线</p>
+				</div>
+
+				
+					<a href="index.html" class="shouye headline clearlr active">
+						<span></span>
+						<span>首页</span>
+					</a>
+				
+				
+				<div class="">
+					
+				</div>
+				<div class="headline headline1 clearlr">
+					<span></span>
+					<span>用户中心</span>
+					<span class="jiantou active"></span>
+				</div>
+				<ul class="faster">
+					<li>
+						<a href="account.html" onclick="return false">账号管理</a>
+					</li>
+					<li>
+						<!--<a href="javascript://"  onclick="return false">账户安全</a>-->
+					</li>
+					<li>
+						<a href="javascript://"  onclick="return false">订单记录</a>
+					</li>
+				</ul>
+
+				<div class="headline clearlr">
+					<span></span>
+					<span>验证码/通知</span>
+					<span class="jiantou"></span>
+				</div>
+				<ul class="faster">
+					<li>
+						<a href="sms.html"  onclick="return false">产品预览</a>
+					</li>
+					<li>
+						<a href="ctsms.html" onclick="return false">短信发送</a>
+					</li>
+					<li>
+						<a href="variable.html"  onclick="return false">变量发送</a>
+					</li>
+					<li>
+						<a href="condition.html"  onclick="return false">状态报告</a>
+					</li>
+					<li>
+						<a href="signature.html"  onclick="return false">签名管理</a>
+					</li>
+					<li>
+						<a href="templatemanager.html"  onclick="return false">模板管理</a>
+					</li>
+					
+					<li>
+						<a href="inviailrecord.html"  onclick="return false">发送记录</a>
+					</li>
+				</ul>
+
+
+				<div class="headline clearlr">
+					<span></span>
+					<span>会员营销</span>
+					<span class="jiantou"></span>
+				</div>
+				<ul class="faster">
+					<li>
+						<a href="sms.html"  onclick="return false">产品预览</a>
+					</li>
+					<li>
+						<a href="ctsms.html"  onclick="return false">短信发送</a>
+					</li>
+					<li>
+						<a href="variable.html"  onclick="return false">变量发送</a>
+					</li>
+					<li>
+						<a href="condition.html"  onclick="return false">状态报告</a>
+					</li>
+					<li>
+						<a href="signature.html"  onclick="return false">签名管理</a>
+					</li>
+					<li>
+						<a href="templatemanager.html"  onclick="return false">模板管理</a>
+					</li>
+					<li>
+						<a href="inviailrecord.html" onclick="return false">发送记录</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="right">
+				
+				
+				
+				
+				<iframe src="indexright.html" width="100%" height="" frameborder="0" scrolling="no" onload="setIframeHeight(this)"></iframe>
+				
+				
+				<!--<div class="zezaoceng">
+					
+				</div>-->
+				
+			</div>
+
+		</div>
+
+
+<!--		导航栏问题-->
+		<script type="text/javascript">
+			document.addEventListener("scroll",setPosition);
+			window.addEventListener("resize",setPosition);
+			function setPosition(){
+			    var scroll_Left=document.body.scrollLeft,
+			        nav=document.getElementById("nav");
+			    nav.style.left = ~scroll_Left + 1 + "px";
+			}
+		</script>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/navandslide.js" type="text/javascript" charset="utf-8"></script>
+		<script src="laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// document.domain = "caibaojian.com";
+			function setIframeHeight(iframe) {
+			if (iframe) {
+				var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+				if (iframeWin.document.body) {
+					iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+					}
+				}
+			};
+			setIframeHeight();
+		</script>
+		
+	</body>
+
+</html>

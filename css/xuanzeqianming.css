@@ -1,0 +1,186 @@
+.signature select{
+	cursor: pointer;
+}
+.zezaoceng{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-30px;
+	top: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+}
+.zezaoceng.active{
+	display: block;
+}
+.qianmingxuanze{
+	display: none;
+	position: absolute;
+	border: 1px solid #E8E8E8;
+	left:7.3rem;
+	width: 237px;
+	background: white;
+/*	padding: 1rem;*/
+	z-index: 99999;
+}
+.qianmingxuanze div{
+	width: 237px;
+	margin: auto;
+/*	border: 1px solid #E8E8E8;*/
+
+	height: 8rem;
+	overflow-y: scroll;
+}
+
+.qianmingxuanze div::-webkit-scrollbar{
+	
+	width: 0.3rem;
+	
+}
+.qianmingxuanze div::-webkit-scrollbar-thumb{
+	background: #247BA0;
+
+}
+.qianmingxuanze div::-webkit-scrollbar-track-piece{
+	background: #E1E1E1;
+
+}
+.qianmingxuanze div::-webkit-scrollbar-button{
+	background: none;
+	height: 0.4rem;
+	opacity: 0;
+	
+}
+.qianmingxuanze div p{
+	border-bottom: 1px solid #E8E8E8;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	color: #A0A0A0;
+}
+.qianmingxuanze div p:hover{
+	background: #70C1B3;
+	color: white;
+}
+.qianmingxuanze button{
+	width: 237px;
+	margin: auto;
+	color: white;
+	padding: 0.5rem;
+/*	margin-top: 1rem;*/
+	background: #247BA0;
+	cursor: pointer;
+}
+
+.qianmingxuanze.active{
+	display: block;
+}
+
+
+
+
+.template .mubana{
+	border: 1px solid #E6E6E6;	
+	width: 600px;
+	background: #F9F9F9;
+	display: none;
+	position: absolute;
+	top: 1rem;
+	left: 358px;
+	z-index: 99999;
+}
+.template .mubana p:nth-child(1){
+	padding: 1rem;
+	border-bottom: 1px solid #EAEAEA;
+}
+.template .mubana p:nth-child(1) span{
+	float: right;
+	color: blue;
+	
+}
+.template .mubana p:nth-child(2){
+	border-bottom: 1px solid #EAEAEA;
+	
+} 
+.template .mubana .spans span{
+	display: inline-block;
+	width: 90px;
+	background: white;
+	margin: 0;
+	margin-left: 5px;
+	padding: 0.3rem 0;
+	margin: 0.3rem 4px;
+	text-align: center;
+	font-size: 0.9rem;
+
+	border: 1px solid #E6E6E6;
+}
+.template .mubana .spans span.active{
+	background: #2B79BD;
+
+	color: white;
+}
+.template .mubana p:nth-child(3){
+	background: white;
+	border-bottom: 1px solid #EAEAEA;
+	padding: 0.5rem 0;
+	font-size: 0.75rem;
+	color: #939393;
+}
+.template .mubana p:nth-child(3) span{
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	margin: 0 2.5%;
+	
+}
+.template .mubana .con{
+	height: 200px;
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+}
+.template .mubana .con p{
+/*	border: 1px solid red;*/
+	border-bottom: 1px solid #EAEAEA;
+	padding:1rem 0;
+	font-size: 0.75rem;
+	color: #939393;
+}
+.template .mubana .con p span{
+	float: left;
+	text-align: center;
+	width: 20%;
+	margin: 0 2.5%;
+	color: #939393;
+}
+.template .mubana .con p:nth-child(1){
+	/*padding:1.5rem 0;*/
+	font-size: 0.75rem;
+}
+.template .mubana .con p:nth-child(2n-1){
+	background: white;
+}
+.template .mubana .con::-webkit-scrollbar{
+	
+	width: 0.3rem;
+	
+}
+.template .mubana .con::-webkit-scrollbar-thumb{
+	background: #247BA0;
+
+}
+.template .mubana .con::-webkit-scrollbar-track-piece{
+	background: #E1E1E1;
+
+}
+.template .mubana .con::-webkit-scrollbar-button{
+	background: none;
+	height: 0.4rem;
+	opacity: 0;
+	
+}
+.template .mubana.active{
+	display: block;
+}

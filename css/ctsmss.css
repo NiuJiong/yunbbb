@@ -1,0 +1,22 @@
+
+ .message_content .message-main .file a:nth-child(2){
+	/*width: 8rem;*/
+	background: none;
+	color: black;
+	text-align: center;
+	border: 1px solid #F3F3F3;
+	margin-left:0.2rem;
+}
+ .message_content .message-main .file a:nth-child(3){
+	margin-left: 2rem;
+	text-align: center;	
+	/*width: 8rem;*/
+	background: none;
+	color: black;
+	border: 1px solid #F3F3F3;
+}
+ .message_content .message-main .file a.active{
+	background:#2B79BD;
+	color: white;
+	border:none;
+}

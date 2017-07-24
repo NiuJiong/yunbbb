@@ -1,0 +1,316 @@
+body{
+	padding: 1.5rem;
+	height: 951px;	
+}
+.zezaoceng{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-30px;
+	top: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+}
+.zezaoceng.active{
+	display: block;
+}
+
+  header{
+  	padding-left:0.5rem;
+  		
+  }
+ header p:nth-child(1){
+	padding: 0.5rem 0 1rem 1.7rem;
+	background: url(../images/yanzhengmatongzhi.png) no-repeat 0 40%;
+	background-size:1.5rem auto;
+	color: #878787;
+	padding-left: 2rem;
+	border-bottom: 1px solid #EDEDED;
+}
+ header p:nth-child(1) span{
+	margin:0 0.5rem;
+	color: #6D6D6D;
+	vertical-align: middle;
+}
+ header p:nth-child(1) span:nth-child(2){
+	color: #237BA1;
+}
+ header p:nth-child(1) span:nth-child(2n-1){
+	color: #CFCFCF;
+}
+ header p:nth-child(1) span:last-child{
+ 	color: black;
+ }
+@media screen and (max-width:1080px ) {
+	{
+		min-width:70%;
+	}
+}
+@media screen and (max-width:970px ) {
+	{
+		width:55%;
+	}
+}
+@media screen and (max-width:768px ) {
+	{
+		width:95%;
+	}
+}
+ header p:nth-child(2){
+	font-size: 1.2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+ header p:nth-child(2) span:nth-child(2){
+	margin-left:2rem;
+	padding: 1rem 0;
+	padding-left: 2rem;
+	color: #3686A8;
+	background: url(../images/dizhi.png) no-repeat 0 center;
+	font-size: 1rem;
+}
+ header p:nth-child(2) input{
+	float: right;
+	margin-right:10%;
+	border: 1px solid #EFEFEF;
+	padding:0.5rem 1rem;
+	background-color:#F9F9F9;
+
+	padding-left: 3rem;
+	background: url(../images/riqi.png) no-repeat 0.5rem center;
+	color: #2A7EA2;
+	font-weight: 600;
+}
+@media screen and (max-width:768px ) {
+	 p:nth-child(2) input{
+		float: none;
+		display: block;
+		margin:1rem 0;
+	}
+}
+ header p:nth-child(3){
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #EDEDED;
+
+} 
+ header p:nth-child(3) span{
+	padding: 0.5rem 1rem;
+	margin-right: 0.5rem;
+} 
+ header p:nth-child(3) span:nth-child(1){
+	background: url(../images/mubanguanli.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(2){
+	background: url(../images/zhanghuanquan.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(3){
+	background: url(../images/bianliangfasong.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(4){
+	padding-left:2rem;
+	margin-left: 3rem;
+	background: url(../images/renzheng.png) no-repeat 0 center;
+	font-size:0.9rem;
+	color: #FED724;
+}
+ header{
+	margin-bottom: 2rem;
+}
+
+
+.message_content{
+	margin-top: 3rem;
+}
+
+
+ .message_content .basic{
+	border: 1px solid #E0E0E0;
+	box-shadow: 1px 1px 1px 0 #E0E0E0,
+				-1px -1px 1px 0 #E0E0E0;			
+}
+ .message_content .basic{
+	background: white;
+}
+ .message_content .basic p{
+
+	padding: 1.2rem 1.5rem;
+	color: #333333;
+	font-family: "microsoft yahei","微软雅黑",helvetica;
+	letter-spacing: 0.1rem;
+	font-size: 1.2rem;
+	background: url(../images/sandian.png) no-repeat 98% center;
+	background-color:#F9F9F9;
+}
+ .message_content .basic div{
+	width:65%;
+	margin: 0 auto;
+	padding: 5rem 0;
+	position: relative;
+}
+
+ .message_content .basic div ul:nth-child(1){
+	float: left;
+}
+ .message_content .basic div ul:nth-child(1) li{
+	padding-left: 2rem;
+}
+ .message_content .basic div ul:nth-child(2){
+	float: right;
+	text-align: right;
+}
+ .message_content .basic div ul:nth-child(2) li{
+	padding-right: 2rem;
+}
+ .message_content .basic div ul{
+	width: 50%;
+}
+ .message_content .basic div ul li{
+	padding: 0.8rem 0 0.3rem 0;
+	border-bottom: 1px solid #F1F1F1;
+	font-size: 0.9rem;
+	color: #5A5A5A;
+}
+ .message_content .basic div span:nth-child(3){
+
+	position:absolute ;
+	top: 50%;
+	left: 54%;
+	transform: translate(-50%,-50%);
+	width:20%;
+}
+
+
+
+ .message_content .approve{
+	margin-top: 5rem;
+	border: 1px solid #EDEDED;
+	box-shadow: 1px 1px 1px 0 #EDEDED,
+				-1px -1px 1px 0 #EDEDED;
+				
+}
+ .message_content .approve{
+	background: white;
+}
+ .message_content .approve .appro{
+	padding: 0.8rem 1rem;
+	font-size: 1rem;
+	background: url(../images/sandian.png) no-repeat 98% center;
+	background-color:#F9F9F9;
+}
+ .message_content .approve ul{
+	
+}
+ .message_content .approve ul li{
+	float: left;
+	width: 18%;
+	margin: 2rem 0 0.8rem 2rem;
+	text-align: center;
+	font-size: 0.6rem;
+}
+ .message_content .approve ul li:nth-child(1){
+	
+}
+ .message_content .approve ul li div{
+	padding-top: 3.8rem;
+	color: white;
+	padding-bottom: 0.5rem;
+}
+ .message_content .approve ul li:nth-child(1) div{
+	background: url(../images/kaifazhe.png) no-repeat center 12%;
+	background-size:20% auto;
+	background-color: #B2DBBF;
+}
+ .message_content .approve ul li:nth-child(2) div{
+	background:url(../images/yingyezhizhao.png) no-repeat center 12%;
+	background-size:23% auto;
+	background-color: #B2DBBF;
+}
+ .message_content .approve ul li div p{
+	margin: 0.5rem 0;
+	padding-bottom:0.5rem;
+}
+ .message_content .approve ul li div a{
+	display: block;
+	padding: 0.5rem 0;
+	width: 50%;
+
+	margin: 0 auto;
+	background: #247BA0;
+	color: white;
+	margin-bottom: 0.8rem;
+}
+ .message_content .approve ul li p:nth-child(2){
+	width: 80%;
+	margin: auto;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	color: #333333;
+}
+
+
+
+
+
+.basic .xiuxiuxiu{
+	position: relative;
+}
+.basic .xiuxiuxiu .xiugaimima{
+	position: absolute;
+	z-index: 99999;
+	background: white;
+
+	border: 1px solid #E8E8E8;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+.basic .xiuxiuxiu .xiugaimima p{
+	
+	background: none;
+	background-color: white;
+	margin: 0;
+	padding:0 1rem;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+	color: #CCCCCC;
+}
+.basic .xiuxiuxiu .xiugaimima input{
+	margin: 0;
+	padding: 0;
+	color: #CCCCCC;
+	border: 1px solid #cccccc;
+	padding: 0.3rem 0;
+	width: 100%;
+}
+.basic .xiuxiuxiu .xiugaimima p:nth-child(1){
+	margin: 0;
+	padding:1rem ;
+	background: #F9F9F9;
+	color: black;
+	
+}
+.basic .xiuxiuxiu .xiugaimima p:nth-child(1) span{
+	float: right;
+	color: blue;
+}
+.basic .xiuxiuxiu .xiugaimima p:nth-child(2){
+	color: blue;
+	letter-spacing: 0;
+	margin: 1.5rem 0;
+}
+.basic .xiuxiuxiu .xiugaimima button{
+	width:102%;
+
+	margin: auto;
+	padding: 0.5rem 0;
+	color: white;
+	background: #247BA0;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+.basic .xiuxiuxiu .xiugaimima.active{
+	display: block;
+}

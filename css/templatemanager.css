@@ -1,0 +1,245 @@
+
+body{
+	padding: 1.5rem;
+}
+.zezaoceng{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-30px;
+	top: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 9999;
+	display: none;
+}
+.zezaoceng.active{
+	display: block;
+}
+  header{
+  	padding-left:0.5rem;
+  }
+ header p:nth-child(1){
+	padding: 0.5rem 0 1rem 1.7rem;
+	background: url(../images/yanzhengmatongzhi.png) no-repeat 0 40%;
+	background-size:1.5rem auto;
+	color: #878787;
+	padding-left: 2rem;
+	border-bottom: 1px solid #EDEDED;
+}
+ header p:nth-child(1) span{
+	color: #428DAC;
+	margin:0 0.5rem;
+	color: #6D6D6D;
+	vertical-align: middle;
+}
+ header p:nth-child(1) span:nth-child(2){
+	color: #237BA1;CFCFCF
+}
+ header p:nth-child(1) span:nth-child(2n-1){
+	color: #CFCFCF;
+}
+ header p:nth-child(1) span:last-child{
+ 	color: black;
+ }
+
+ header p:nth-child(2){
+	font-size: 1.2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+ header p:nth-child(2) span:nth-child(2){
+	margin-left:2rem;
+	padding: 1rem 0;
+	padding-left: 2rem;
+	color: #3686A8;
+	background: url(../images/dizhi.png) no-repeat 0 center;
+	font-size: 1rem;
+}
+ header p:nth-child(2) input{
+	float: right;
+	margin-right:10%;
+	border: 1px solid #EFEFEF;
+	padding:0.5rem 1rem;
+	background-color:#F9F9F9;
+
+	padding-left: 3rem;
+	background: url(../images/riqi.png) no-repeat 0.5rem center;
+	color: #2A7EA2;
+	font-weight: 600;
+}
+
+ header p:nth-child(3){
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #EDEDED;
+
+} 
+ header p:nth-child(3) span{
+	padding: 0.5rem 1rem;
+	margin-right: 0.5rem;
+} 
+ header p:nth-child(3) span:nth-child(1){
+	background: url(../images/mubanguanli.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(2){
+	background: url(../images/zhanghuanquan.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(3){
+	background: url(../images/bianliangfasong.png) no-repeat 0 center;
+}
+ header p:nth-child(3) span:nth-child(4){
+	padding-left:2rem;
+	margin-left: 3rem;
+	background: url(../images/renzheng.png) no-repeat 0 center;
+	font-size:0.9rem;
+	color: #FED724;
+}
+ header{
+	margin-bottom: 2rem;
+}
+
+.message_content{
+	margin-top: 3rem;
+}
+
+
+ .message_content ul:nth-child(1) li:last-child{
+	border: none;
+	float: right;
+	margin-right: 1rem;
+	padding: 0;
+	width:5rem;
+	vertical-align: bottom;
+	
+	text-align: center;
+	border:none;
+	margin-top: 1.8rem;
+
+	cursor: pointer;
+}
+ .message_content ul:nth-child(1) li:last-child a{
+	font-size:1.1rem;
+	letter-spacing: 0.05rem;
+	color: #3283A4;
+}
+
+
+ .message_content ul:nth-child(2) .tab .thead span{
+	display: inline-block;
+	width: 11.1%;
+	text-align: center;
+	padding: 0.3rem 0;
+	font-size: 0.9rem;
+	color: #7B7B7B;
+}
+
+ .message_content ul:nth-child(2) .tab ul li span{
+	display: inline-block;
+	width: 11.1%;
+	text-align: center;
+	padding: 0.3rem 0;
+	font-size: 0.9rem;
+	color: #7B7B7B;
+	padding: 1.2rem 0;
+}
+
+
+.message_content .tanchu{
+	/*position: relative;*/
+}
+ .message_content ul{
+ 	position: relative;
+ }
+.message_content .muban{
+	display: none;
+	width: 500px;
+	position: absolute;
+	z-index: 99999;
+	left: 30%;
+	top: 0;
+	background: white;
+	border: 1px solid #EFEFEF;
+	
+}
+.message_content .muban.active{
+	display: block;
+}
+.message_content .muban p:nth-child(1){
+	background: #F9F9F9;
+	text-align: start;
+	padding: 1rem;
+}
+.message_content .muban p:nth-child(1) span{
+	float: right;
+	color: #4187C3;
+}
+.message_content .muban p:nth-child(2){
+	background: #F9F9F9;
+	border: 1px solid #EFEFEF;
+
+	width: 80%;
+	margin: auto;
+	padding: 1rem 0;
+	margin-top: 1rem;
+}
+.message_content .muban p:nth-child(2) img{
+	width: 2rem;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+.message_content .muban p:nth-child(2) select{
+	border: none;
+	outline: none;
+	background: #F9F9F9;
+	width:6rem;
+/*	font-size: 1rem;*/
+}
+.message_content .muban div:nth-child(3){
+	border: 1px solid #EFEFEF;
+
+	width: 80%;
+	margin: auto;
+	margin-top: 2rem;
+	height: 6rem;
+	outline: none;
+	color: #AFAFAF;
+	border-bottom: none;
+	text-align: start;
+}
+.message_content .muban div:nth-child(3) span{
+	color: blue;
+}
+.message_content .muban p:nth-child(4){
+	border: 1px solid #EFEFEF;
+	border-top: none;
+	width: 400px;
+	margin: auto;
+
+	color: #AFAFAF;
+	text-align: right;
+}
+
+.message_content .muban div:nth-child(5){
+	border: 1px solid #EFEFEF;
+	height: 2rem;
+	width: 400px;
+	margin: auto;
+
+	margin-top: 1rem;
+	color: #AFAFAF;
+	text-align: start;
+	
+}
+.message_content .muban button{
+	width: 400px;
+	margin: auto;
+
+	margin-top: 1rem;
+	background: #247BA0;
+	color: white;
+	padding: 1rem 0;
+	margin-bottom: 2rem;
+	letter-spacing: 0.1rem;
+	cursor: pointer;
+}
