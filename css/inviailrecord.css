@@ -1,6 +1,6 @@
 body{
 	padding: 1.5rem;
-	height: 998px;
+	height: 948px;
 }
 .zezaoceng{
 	position: absolute;
@@ -17,8 +17,7 @@ body{
 	display: block;
 }
   header{
-  	padding-left:0.5rem;
-  		
+  	padding-left:0.5rem;	
   }
  header p:nth-child(1){
 	padding: 0.5rem 0 1rem 1.7rem;
