@@ -64,6 +64,10 @@ $(function(){
 	
 	$(".message_content .tianjia").click(function(){
 		$(".message_content .muban").addClass("active");
+//		$(".zezaoceng").addClass("active");
+	});
+	$(".message_content .tanchu .tianjia").click(function(){
+		$(".message_content .muban").addClass("active");
 		$(".zezaoceng").addClass("active");
 	});
 	$(".message_content .muban .xiaoshi").click(function(){
@@ -112,15 +116,16 @@ $(function(){
 	
 	
 	$(".message_content .message-main .signature .tianjia .tjqmm").click(function(){
-		if($(".qianmingxuanze").hasClass("active")){
-					$(".qianmingxuanze").removeClass("active");
+		if($(".message_content .message-main .signature .qianmingxuanze").hasClass("active")){
+					$(".message_content .message-main .signature .qianmingxuanze").removeClass("active");
 					
 					
 		}else{
-			$(".qianmingxuanze").addClass("active");
+			$(".message_content .message-main .signature .qianmingxuanze").addClass("active");
 			
 		}
 	});
+	
 	
 	$(".message_content .message-main .signature .qianmingxuanze p").click(function(){
 		var text = $(this).text();
@@ -129,6 +134,15 @@ $(function(){
 		$(".message_content .message-main .content .tongbu").text(text);
 		$(".message_content .message-main .signature .qianmingxuanze").removeClass("active");
 		$(".zezaoceng").removeClass("active");
+	});
+//	$(".message_content  .tanchu .muban .tjqmm").click(function(){
+//		$(".message_content  .tanchu .muban .qianmingxuanze").addClass("active");
+//	});
+	$(".message_content  .tanchu .muban .addqianming p").click(function(){
+		var text = $(this).text();
+//		console.log(text);
+		$(".message_content  .tanchu .muban .tjqmm").text(text);
+		$(".message_content  .tanchu .muban .addqianming").removeClass("active");
 	});
 	
 	
@@ -163,7 +177,6 @@ $(function(){
 		$(".pagess p:eq(1) span").removeClass("active");
 		$(this).addClass("active");
 		$(".pagess p:eq(1) span:eq(2)").removeClass("active");
-		
 	});
 	$(".zezaoceng").click(function(){
 		$(this).removeClass("active");
@@ -176,4 +189,9 @@ $(function(){
 		$(".qianmingxuanze").removeClass("active");
 		$(".message_content .message-main .template .mubana").removeClass("active");
 	});
+	
+	
+	
+	
+	
 });

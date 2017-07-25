@@ -118,7 +118,7 @@ body{
 
 	cursor: pointer;
 }
- .message_content ul:nth-child(1) li:last-child a{
+ .message_content ul:nth-child(1) li:last-child .tianjia{
 	font-size:1.1rem;
 	letter-spacing: 0.05rem;
 	color: #3283A4;
@@ -165,16 +165,16 @@ body{
 .message_content .muban.active{
 	display: block;
 }
-.message_content .muban p:nth-child(1){
+.message_content .muban .one{
 	background: #F9F9F9;
 	text-align: start;
 	padding: 1rem;
 }
-.message_content .muban p:nth-child(1) span{
+.message_content .muban .one span{
 	float: right;
 	color: #4187C3;
 }
-.message_content .muban p:nth-child(2){
+.message_content .muban .two{
 	background: #F9F9F9;
 	border: 1px solid #EFEFEF;
 
@@ -182,20 +182,99 @@ body{
 	margin: auto;
 	padding: 1rem 0;
 	margin-top: 1rem;
+	position: relative;
+	text-align: center;
 }
-.message_content .muban p:nth-child(2) img{
+.message_content .muban .two img{
 	width: 2rem;
 	vertical-align: middle;
-	margin-right: 0.5rem;
 }
-.message_content .muban p:nth-child(2) select{
+.message_content .muban .two a{
+	margin-left: 0;
+	display: inline-block;
 	border: none;
 	outline: none;
 	background: #F9F9F9;
 	width:6rem;
+	font-size:0.8rem;
+	padding-right: 0.5rem;
+	background: url(../images/xiala.png) no-repeat 100% center;
 /*	font-size: 1rem;*/
 }
-.message_content .muban div:nth-child(3){
+
+
+
+
+
+
+.message_content .muban .addqianming{
+	position: absolute;
+	border: 1px solid #E8E8E8;
+	left: 50px;
+	width: 400px;
+	background: white;
+	z-index: 99999;
+	display: none;
+}
+.message_content .muban .addqianming div{
+	/*width: 237px;*/
+	margin: auto;
+
+	height: 8rem;
+	overflow-y: scroll;
+}
+
+.message_content .muban .addqianming div::-webkit-scrollbar{
+	
+	width: 0.3rem;
+	
+}
+.message_content .muban .addqianming div::-webkit-scrollbar-thumb{
+	background: #247BA0;
+
+}
+.message_content .muban .addqianming div::-webkit-scrollbar-track-piece{
+	background: #E1E1E1;
+
+}
+.message_content .muban.addqianming div::-webkit-scrollbar-button{
+	background: none;
+	height: 0.4rem;
+	opacity: 0;
+	
+}
+.message_content .muban .addqianming div p{
+	border-bottom: 1px solid #E8E8E8;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	color: #A0A0A0;
+}
+.message_content .muban .addqianming div p:hover{
+	background: #70C1B3;
+	color: white;
+}
+.message_content .muban .addqianming button{
+	width:400px;
+	margin: auto;
+	color: white;
+	padding: 0.5rem;
+	background: #247BA0;
+	cursor: pointer;
+}
+
+.message_content .muban .addqianming.active{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+.message_content .muban .cont{
 	border: 1px solid #EFEFEF;
 
 	width: 80%;
@@ -210,7 +289,7 @@ body{
 .message_content .muban div:nth-child(3) span{
 	color: blue;
 }
-.message_content .muban p:nth-child(4){
+.message_content .muban .di{
 	border: 1px solid #EFEFEF;
 	border-top: none;
 	width: 400px;
@@ -220,7 +299,7 @@ body{
 	text-align: right;
 }
 
-.message_content .muban div:nth-child(5){
+.message_content .muban .five{
 	border: 1px solid #EFEFEF;
 	height: 2rem;
 	width: 400px;
@@ -231,7 +310,7 @@ body{
 	text-align: start;
 	
 }
-.message_content .muban button{
+.message_content .muban  .butt{
 	width: 400px;
 	margin: auto;
 

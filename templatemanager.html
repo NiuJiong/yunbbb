@@ -36,21 +36,34 @@
 						<li class="tanchu">
 							<a href="###" class="tianjia">添加模板</a>
 							<div class="muban">
-								<p>添加模板<span class="xiaoshi">x</span></p>
-								<p>
+								<p class="one">添加模板<span class="xiaoshi">x</span></p>
+								<p class="two">
 									<img src="images/zhongbiao.png"/>
-									<select name="">
-										<option value="">请选择签名</option>
-									</select>
+									<a href="###" class="tjqmm">请选择签名</a>
+									
+									
 								</p>
+								<div class="addqianming">
+										<div>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+											<p>爱的视觉</p>
+										</div>
+										<button>新建签名</button>
+								</div>
 								<div class="cont" contenteditable="true">
 									<span>{请选择签名}</span>请输入短信内容，链接网址须使用空格结尾
 								</div>
-								<p>第<span>1</span>条 <span>2</span>/70个字</p>
-								<div class="" contenteditable="true">
+								<p class="di">第<span>1</span>条 <span>2</span>/70个字</p>
+								<div class="five" contenteditable="true">
 									请输入备注...(可不填)
 								</div>
-								<button>保存模板</button>
+								<button class="butt">保存模板</button>
 							</div>
 						</li>
 					</ul>	
@@ -93,6 +106,16 @@
 		<script src="js/navandslide.js" type="text/javascript" charset="utf-8"></script>
 		<script src="laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(".message_content .muban .two").click(function(){
+				if($(".addqianming").hasClass("active")){
+					$(".addqianming").removeClass("active");
+						
+				}else{
+					$(".addqianming").addClass("active");	
+				}
+			});
+		</script>
 	</body>
 
 </html>
