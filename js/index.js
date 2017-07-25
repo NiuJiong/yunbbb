@@ -165,5 +165,15 @@ $(function(){
 		$(".pagess p:eq(1) span:eq(2)").removeClass("active");
 		
 	});
-	
+	$(".zezaoceng").click(function(){
+		$(this).removeClass("active");
+		$(".message-main .daoru").removeClass("active");
+		$(".message-main .shoudong").removeClass("active");
+		$(".message_content .muban").removeClass("active");
+		$(".qianming .bu button").removeClass("active");
+		$(".qianming").removeClass("active");
+		$(".basic .xiuxiuxiu .xiugaimima").removeClass("active");
+		$(".qianmingxuanze").removeClass("active");
+		$(".message_content .message-main .template .mubana").removeClass("active");
+	});
 });
